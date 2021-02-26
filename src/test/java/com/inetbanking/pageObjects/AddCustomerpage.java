@@ -14,6 +14,7 @@ public class AddCustomerpage {
 		PageFactory.initElements(rdriver, this);
 		ldriver.findElement(By.linkText("addcustomerpage.php"));
 		//updated comments
+		//comment
 	}
 	@FindBy(xpath = "/html/body/div[3]/div/ul/li[2]/a") WebElement linkNewCustomer;
 	public void clickNewCustomer()
