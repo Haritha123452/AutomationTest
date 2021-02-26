@@ -15,6 +15,7 @@ public class AddCustomerpage {
 		ldriver.findElement(By.linkText("addcustomerpage.php"));
 		//updated comments
 		//comment
+		//3rd commit
 	}
 	@FindBy(xpath = "/html/body/div[3]/div/ul/li[2]/a") WebElement linkNewCustomer;
 	public void clickNewCustomer()
