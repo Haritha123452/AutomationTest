@@ -68,7 +68,7 @@ public class BaseClass {
 		TakesScreenshot ts =(TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
-		//FileUtils.copyFile(source,target);
+		//FileUtils.copyFile    jkjk(source,target);
 		System.out.println("Screenshot taken");
 	}
 	
