@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [inetbankingversion1]]">
-  <listeners>
-    <listener class-name="com.inetbanking.utilities.Reporting"/>
-  </listeners>
   <test thread-count="5" name="Bankingapp Test(failed)(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>

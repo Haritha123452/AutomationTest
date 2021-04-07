@@ -1,4 +1,14 @@
-07:38:04,969  INFO ebanking<strong>{1}</strong>:14 - browser opened
-07:38:05,369  INFO ebanking<strong>{1}</strong>:17 - username provided
-07:38:05,561  INFO ebanking<strong>{1}</strong>:19 - password provided
-07:38:08,225  INFO ebanking<strong>{1}</strong>:21 - clicked on submit button
+21:55:13,633  INFO ebanking<strong>{1}</strong>:23 - browser opened
+21:55:13,958  INFO ebanking<strong>{1}</strong>:27 - username provided
+21:55:14,257  INFO ebanking<strong>{1}</strong>:30 - password provided
+21:55:17,093  INFO ebanking<strong>{1}</strong>:33 - clicked on submit button
+21:55:17,600 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21:55:17,600 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21:55:17,600 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21:55:17,608 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:55:17,608 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21:55:18,812 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21:55:18,813 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21:55:18,813 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21:55:18,813 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:55:18,813 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

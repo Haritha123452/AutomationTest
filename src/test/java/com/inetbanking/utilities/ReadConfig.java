@@ -49,5 +49,11 @@ public class ReadConfig {
 		return firefoxpath;
 		
 	}
+	public String getCustID()
+	{
+		String url =pro.getProperty("customerid"); 
+		return url;
+		
+	}
 
 }
