@@ -13,31 +13,59 @@ public class AddCustomerpage {
 	{
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
-		ldriver.findElement(By.linkText("addcustomerpage.php"));
-		//updated comments
-		//comment
-		//3rd commit
+		
 	}
-	@FindBy(xpath = "/html/body/div[3]/div/ul/li[2]/a") WebElement linkNewCustomer;
+	@FindBy(xpath="//a[contains(text(),'New Customer')]") WebElement linkNewCustomer;
 	public void clickNewCustomer()
 	{
-		linkNewCustomer.click();
+		linkNewCustomer.click();	
 	}
 	@FindBy(name="name") WebElement txtCustomerName;
 	public void setCustomerName(String custName)
 	{
 		txtCustomerName.sendKeys(custName);
 	}
-	@FindBy(xpath = "/html/body/table/tbody/tr/td/table/tbody/tr[5]/td[2]/input[1]") WebElement radioGender;
+	@FindBy(name="rad1") WebElement radioGender;
 	public void setradioGender(String gender)
 	{
-		radioGender.sendKeys(gender);
+		radioGender.click();
 	}
-	@FindBy(linkText = "addcustomerpage.php") WebElement txtDateofBirth;
-	@FindBy(linkText = "addcustomerpage.php") WebElement txtAddress;
-	@FindBy(linkText = "addcustomerpage.php") WebElement txtCity;
-	@FindBy(linkText = "addcustomerpage.php") WebElement txtPIN;
-	@FindBy(linkText = "addcustomerpage.php") WebElement txtState;
+	@FindBy(id="dob") WebElement txtDateofBirth;
+	public void txtDOB()
+	{
+		txtDateofBirth.sendKeys("11");
+		txtDateofBirth.sendKeys("11");
+		txtDateofBirth.sendKeys("1991");
+	}
+	@FindBy(xpath = "//*[@name='addr']") WebElement txtAddress;
+	public void addAddress(String address)
+	{
+		txtAddress.sendKeys(address);
+	}
+	@FindBy(xpath = "//input[@name='city']") WebElement txtCity;
+	public void addCity(String city)
+	{
+		txtCity.sendKeys(city);
+	}
+	@FindBy(linkText = "//*[@type ='text' and @name ='state']") WebElement txtState;
+	public void addState(String state)
+	{
+		txtState.sendKeys(state);
+	}
+	@FindBy(xpath = "//*[@type ='text' and @name ='pinno']") WebElement txtPIN;
+	public void addPIN(String pin)
+	{
+		txtPIN.sendKeys(pin);
+	}
 	
+	@FindBy(name="sub") WebElement btnclickSubmit;
+	public void clickSubmit()
+	{
+		btnclickSubmit.click();
+	}
+	public void getTextfromalert()
+	{
+		System.out.println(ldriver.switchTo().alert().getText());
+	}
 
 }

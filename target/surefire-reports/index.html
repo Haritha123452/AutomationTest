@@ -142,9 +142,6 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;inetbankingversion1&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.inetbanking.utilities.Reporting&quot;/&gt;
-  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Bankingapp Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -192,12 +189,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.inetbanking.testCases.TC_LoginTest_001')
-data.setCell(0, 3, 65064);
+data.setCell(0, 3, 10200);
 window.suiteTableData['inetbankingversion1']= { tableData: data, tableDiv: 'times-div-inetbankingversion1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-inetbankingversion1">
               </div> <!-- times-div-inetbankingversion1 -->
             </div> <!-- times-div -->
@@ -230,11 +227,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">6953 ms</span>
+                <span class="method-start">3552 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">72017 ms</span>
+                <span class="method-start">13752 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
