@@ -8,7 +8,7 @@
 	  <classes>
 	  
 	   
-	  <class name="com.inetbanking.testCases.TC_EditCustomer"/>  
+	  <class name="com.inetbanking.testCases.TC_AddCust_003"/>  
 	 
 	  </classes>   
   </test> <!-- Test -->
