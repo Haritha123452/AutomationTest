@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -20,24 +21,24 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-inetbankingversion1">
+            <a href="#" panel-name="suite-inetbankingversion1" class="navigator-link">
               <span class="suite-name border-passed">inetbankingversion1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-inetbankingversion1">
-                    <span>F:\ITXAutomation\inetbankingversion1\TestNG.xml</span>
+                  <a href="#" panel-name="test-xml-inetbankingversion1" class="navigator-link ">
+                    <span>C:\Users\SSD\git\AutomationTest\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-inetbankingversion1">
+                  <a href="#" panel-name="testlist-inetbankingversion1" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-inetbankingversion1">
+                  <a href="#" panel-name="group-inetbankingversion1" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-inetbankingversion1">
+                  <a href="#" panel-name="times-inetbankingversion1" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-inetbankingversion1">
+                  <a href="#" panel-name="reporter-inetbankingversion1" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-inetbankingversion1">
+                  <a href="#" panel-name="ignored-methods-inetbankingversion1" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-inetbankingversion1">
+                  <a href="#" panel-name="chronological-inetbankingversion1" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,8 +102,8 @@
                     </span>
                     <div class="method-list-content passed suite-inetbankingversion1">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-inetbankingversion1" title="com.inetbanking.testCases.TC_EditCustomer" hash-for-method="editCustomer">editCustomer</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-inetbankingversion1" title="com.inetbanking.testCases.TC_LoginTest_001" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-inetbankingversion1 -->
@@ -120,14 +121,14 @@
           <div class="suite-inetbankingversion1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.inetbanking.testCases.TC_EditCustomer</span>
+              <span class="class-name">com.inetbanking.testCases.TC_LoginTest_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="editCustomer">
-                  </a> <!-- editCustomer -->
-                  <span class="method-name">editCustomer</span>
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,17 +136,17 @@
         </div> <!-- panel inetbankingversion1 -->
         <div panel-name="test-xml-inetbankingversion1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\ITXAutomation\inetbankingversion1\TestNG.xml</span>
+            <span class="header-content">C:\Users\SSD\git\AutomationTest\TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;inetbankingversion1&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;inetbankingversion1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Bankingapp Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.inetbanking.testCases.TC_EditCustomer&quot;/&gt;
+      &lt;class name=&quot;com.inetbanking.testCases.TC_LoginTest_001&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Bankingapp Test --&gt;
 &lt;/suite&gt; &lt;!-- inetbankingversion1 --&gt;
@@ -187,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'editCustomer')
-data.setCell(0, 2, 'com.inetbanking.testCases.TC_EditCustomer')
-data.setCell(0, 3, 15074);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.inetbanking.testCases.TC_LoginTest_001')
+data.setCell(0, 3, 10590);
 window.suiteTableData['inetbankingversion1']= { tableData: data, tableDiv: 'times-div-inetbankingversion1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-inetbankingversion1">
               </div> <!-- times-div-inetbankingversion1 -->
             </div> <!-- times-div -->
@@ -220,22 +221,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.inetbanking.testCases.TC_EditCustomer</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.inetbanking.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">editCustomer</span>
-                <span class="method-start">5725 ms</span>
+                <span class="method-name">loginTest</span>
+                <span class="method-start">50487 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginTest status=SUCCESS method=TC_LoginTest_001.loginTest()[pri:0, instance:com.in...)</span>
+                <span class="method-start">61088 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20818 ms</span>
+                <span class="method-start">61127 ms</span>
               </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">61463 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="inetbankingversion1" duration-ms="23697" started-at="2021-04-06T16:31:22Z" finished-at="2021-04-06T16:31:46Z">
+  <suite started-at="2023-08-02T12:13:06 IST" name="inetbankingversion1" finished-at="2023-08-02T12:14:08 IST" duration-ms="62073">
     <groups>
     </groups>
-    <test name="Bankingapp Test" duration-ms="23697" started-at="2021-04-06T16:31:22Z" finished-at="2021-04-06T16:31:46Z">
-      <class name="com.inetbanking.testCases.TC_EditCustomer">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer@1794d431]" name="setup" is-config="true" duration-ms="5703" started-at="2021-04-06T16:31:22Z" finished-at="2021-04-06T16:31:28Z">
+    <test started-at="2023-08-02T12:13:06 IST" name="Bankingapp Test" finished-at="2023-08-02T12:14:08 IST" duration-ms="62073">
+      <class name="com.inetbanking.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@645aa696]" started-at="2023-08-02T12:13:06 IST" name="setup" finished-at="2023-08-02T12:13:56 IST" duration-ms="50466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="editCustomer()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer@1794d431]" name="editCustomer" duration-ms="15074" started-at="2021-04-06T16:31:28Z" finished-at="2021-04-06T16:31:43Z">
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@645aa696]" started-at="2023-08-02T12:13:56 IST" name="loginTest" finished-at="2023-08-02T12:14:07 IST" duration-ms="10590" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer@1794d431]" name="tearDown" is-config="true" duration-ms="2862" started-at="2021-04-06T16:31:43Z" finished-at="2021-04-06T16:31:46Z">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@645aa696]" started-at="2023-08-02T12:14:07 IST" name="getResult" finished-at="2023-08-02T12:14:07 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TC_LoginTest_001.loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@645aa696]" started-at="2023-08-02T12:14:07 IST" name="tearDown" finished-at="2023-08-02T12:14:07 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbanking.testCases.TC_EditCustomer -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@645aa696]" started-at="2023-08-02T12:14:07 IST" name="afterTest" finished-at="2023-08-02T12:14:08 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
     </test> <!-- Bankingapp Test -->
   </suite> <!-- inetbankingversion1 -->
 </testng-results>
