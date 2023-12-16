@@ -5,5 +5,6 @@ com\inetbanking\utilities\XLUtils.class
 com\inetbanking\testCases\TC_AddCust_4.class
 com\inetbanking\utilities\ReadConfig.class
 com\inetbanking\testCases\TC_EditCustomer.class
+com\inetbanking\utilities\Reporting.class
 com\inetbanking\testCases\TC_AddCust_003.class
 com\inetbanking\pageObjects\AddCustomerpage.class
