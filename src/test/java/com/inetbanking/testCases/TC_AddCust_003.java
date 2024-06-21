@@ -16,7 +16,7 @@ public class TC_AddCust_003 extends BaseClass {
 	 */
 	@Test
 	public void addNewCustomer() throws InterruptedException, IOException {
-
+     //New line 0621
 		String testCaseNAme = "Add NeW Customer";
 		test = extent.createTest("Test Case 1", "PASSED test case");
 		driver.get(baseURL);
