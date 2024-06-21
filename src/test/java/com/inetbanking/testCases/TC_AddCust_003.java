@@ -19,6 +19,7 @@ public class TC_AddCust_003 extends BaseClass {
                  //New line 0621
 		//Add a code
 		//Sample Code- 3456
+		// Added sample
 		String testCaseNAme = "Add NeW Customer";
 		test = extent.createTest("Test Case 1", "PASSED test case");
 		driver.get(baseURL);
